@@ -42,5 +42,5 @@ The version numbers below were confirmed to work with the current release:
 * Contains the source code of the Minimized Test Suite Algorithm
 #### [DeepReduce Code]():
 * Contains the source code of DeepReduce tool 
-#### [DeepReduce Result]():
+#### [DeepReduce Result](https://github.com/anonymousConference2025/DeepLite/tree/main/DeepReduce%20Result/DLR):
 * Contains result from DeepReduce on one model 
