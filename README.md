@@ -38,7 +38,7 @@ The version numbers below were confirmed to work with the current release:
 * Contains the source code of all AUTOTRAINER Models
 #### [Spectrum Analysis](https://github.com/FSE2024paper/Test-Suite/tree/main/Spectrum%20Analysis):
 * Contains the source code of Callback
-#### [Minimized Test Suite](https://github.com/FSE2024paper/Test-Suite/tree/main/Minimized%20Test%20Suite):
+#### [Minimized Training Dataset](https://github.com/FSE2024paper/Test-Suite/tree/main/Minimized%20Test%20Suite):
 * Contains the source code of the Minimized Test Suite Algorithm
 #### [DeepReduce Code]():
 * Contains the source code of DeepReduce tool 
