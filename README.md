@@ -1,13 +1,13 @@
-# Automatic Test Suite Reduction for Deep Neural Networks
+# DNN Debugging Without Breaking the Bank: Spectrum-based Training Dataset Reduction
 
-To use DeepSuite, you need to add our callback as a subclass in your keras.callbacks.py file.
+To use DeepLite, you need to add our callback as a subclass in your keras.callbacks.py file.
 
 The core principle of our callback is to get a view of the internal states and statistics of the model during training.
 
-Then you can pass our callback `DeepSuite()` to the `.fit()` method of a model as follows:
+Then you can pass our callback `DeepLite()` to the `.fit()` method of a model as follows:
 
 ```python
-callback = keras.callbacks.DeepSuite(inputs, outputs, layer_number, batch_size, startTime)
+callback = keras.callbacks.DeepLite(inputs, outputs, layer_number, batch_size, startTime)
 model = keras.models.Sequential()
 model.add(keras.layers.Dense(64))
 model.add(keras.layers.Activation(activations.relu))
@@ -31,7 +31,7 @@ The version numbers below were confirmed to work with the current release:
     tensorflow 1.14.0
 
     
-## This repository contains the reproducibility package of DeepSuite
+## This repository contains the reproducibility package of DeepLite
 #### [Kaggle Models](https://github.com/ICSE2024paper/Test-Suite/tree/main/Kaggle%20Model): 
 * Contains the source code of all Kaggle Models
 #### [AUTOTRAINER Models](https://github.com/FSE2024paper/Test-Suite/tree/main/AUTOTRAINER%20Model):
@@ -39,4 +39,8 @@ The version numbers below were confirmed to work with the current release:
 #### [Spectrum Analysis](https://github.com/FSE2024paper/Test-Suite/tree/main/Spectrum%20Analysis):
 * Contains the source code of Callback
 #### [Minimized Test Suite](https://github.com/FSE2024paper/Test-Suite/tree/main/Minimized%20Test%20Suite):
-* Contains the source code of the Minimized Test Suite Algorithm 
+* Contains the source code of the Minimized Test Suite Algorithm
+#### [DeepReduce Code]():
+* Contains the source code of DeepReduce tool 
+#### [DeepReduce Result]():
+* Contains result from DeepReduce on one model 
