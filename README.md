@@ -33,14 +33,14 @@ The version numbers below were confirmed to work with the current release:
     
 ## This repository contains the reproducibility package of DeepLite
 #### [Kaggle Models](https://github.com/ICSE2024paper/Test-Suite/tree/main/Kaggle%20Model): 
-* Contains the source code of all Kaggle Models
+* Contains the source code of all Kaggle Models.
 #### [AUTOTRAINER Models](https://github.com/FSE2024paper/Test-Suite/tree/main/AUTOTRAINER%20Model):
-* Contains the source code of all AUTOTRAINER Models
+* Contains the source code of all AUTOTRAINER Models.
 #### [Spectrum Analysis](https://github.com/FSE2024paper/Test-Suite/tree/main/Spectrum%20Analysis):
 * Contains the source code of Callback
 #### [Minimized Training Dataset](https://github.com/FSE2024paper/Test-Suite/tree/main/Minimized%20Test%20Suite):
-* Contains the source code of the Minimized Test Suite Algorithm
-#### [DeepReduce Code]():
+* Contains the source code of the Minimized Training Dataset Algorithm
+#### [DeepReduce Code](https://github.com/anonymousConference2025/DeepLite/tree/main/DeepReduce%20Code):
 * Contains the source code of DeepReduce tool 
 #### [DeepReduce Result](https://github.com/anonymousConference2025/DeepLite/tree/main/DeepReduce%20Result/DLR):
-* Contains result from DeepReduce on one model 
+* Contains results from DeepReduce on one model 
